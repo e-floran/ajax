@@ -11,6 +11,7 @@ function quotes() {
           <p><strong>${data[0].quote}</strong></p>
           <p>"${data[0].character}"</p>
           <img src="${data[0].image}" alt="${data[0].character}"/>
+          
         `;
         document.querySelector('.content').innerHTML = simpsonsHtml;
       });
